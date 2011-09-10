@@ -1,0 +1,9 @@
+shlib - bash shell script library
+---------------------------------
+
+cmdopts.sh - command line parser supports help information
+  I used getopts and loop style command line parser, but I am not happy
+  with the problem that the help information is always seperated from
+  options. It causes problem when options are updated, the help information
+  isn't. This is mainly an effort to deal with this issue.
+
